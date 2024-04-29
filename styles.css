@@ -1,0 +1,118 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.table-bordered {
+    border: 2px solid #ccc;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.table td, .table th {
+    padding: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Add box shadow to elements */
+.box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the container */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add some padding to sections */
+.section {
+    padding: 50px 0;
+}
+
+/* Add some margin to headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+/* Add some margin to paragraphs */
+p {
+    margin-bottom: 20px;
+}
